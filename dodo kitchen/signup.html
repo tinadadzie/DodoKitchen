@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Dodo Kitchen</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="js/app.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+
+        <a class="navbar-brand" href="">Dodo Kitchen</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index2.html">Home</a>
+              <span class="sr-only">(current)</span>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li> -->
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" 
+              role="button" data-toggle="dropdown" 
+              aria-haspopup="true" aria-expanded="false" id="food">Menu</a> 
+          <div class="dropdown-menu" aria-labelledby="menu">
+              <a class="dropdown-item" active href="local.html">Local Dishes</a>
+              <a class="dropdown-item" href="continental.html">Contential Dishes</a>
+              
+          </div>
+          </li>
+            
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="Login.html">Login</a>
+              </li>
+              
+              
+          </ul> 
+        </div>    
+      </nav>
+      <!--  Navbar Ends--------------------------------------------->
+   <!-- sign up page start -->
+   <div class="signup-form">
+    <form action="#" method="post" onsubmit="return validate()"> 
+		<h2>Create an Account</h2>
+		<p class="hint-text">Sign up with your social media account or email address</p>
+		<div class="social-btn text-center">
+			<a href="#" class="btn btn-primary btn-lg"><i class=" fab fa-facebook"></i> Facebook</a>
+			<a href="#" class="btn btn-info btn-lg"><i class="fab fa-twitter"></i> Twitter</a>
+			<a href="#" class="btn btn-danger btn-lg"><i class="fab fa-google"></i> Google</a>
+		</div>
+		<div class="or-seperator"><b>or</b></div>
+        <div class="form-group">
+          <input type="text" class="form-control input-lg" name="username" placeholder="Username"
+          id="user1">
+          <span id="examUser" class="text-danger"></span>
+        </div>
+		<div class="form-group">
+          <input type="email" class="form-control input-lg" name="email" placeholder="Email Address"
+          id="email">
+          <span id="examEmail" class="text-danger"></span>
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control input-lg" name="password" placeholder="Password"
+            id="pwd" >
+            <span id="examPwd" class="text-danger"></span>
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control input-lg" name="confirm_password" placeholder="Confirm Password" 
+             id="confirmPwd" >
+             <span id="examConfirmPwd" class="text-danger"></span>
+        </div>  
+        <div class="form-group">
+            <button type="submit" class=" btn-lg btn-block signup-btn new-btn">Sign Up</button>
+        </div>
+        <div class="text-center">Already have an account? <a href="Login.html">Login here</a></div>
+    </form>
+    
+</div>
+
+
+       <!-- sign up ends -->
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+    <div class="row">   
+       <div class="col-md-4 col-sm-6">
+        <span class=" foot-text">Dodo Kitchen</span>
+        <p class="px-c"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+           Quae voluptas laborum similique 
+          atque, libero alias ratione molestias ducimus et repudiandae laudantium, 
+          ad consectetur, quam debitis numquam magnam sit. Cupiditate, tempore.</p>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <span class=" foot-text">Contact Us</span>
+      <p class="px-c"><i class="fa fa-map-marker ft-icon"></i>1234 Lapaz,Accra </p>
+      <p class="px-c"><i class="fa fa-phone ft-icon"></i>(+233) 456127890</p>
+      <p class="px-c"> <i class="fa fa-envelope ft-icon"></i>DodoKit@gmail.com</p>
+   
+
+  </div>
+   
+  <div class="col-md-4 col-sm-6">
+    <span class="mt-15 foot-text">Opening Hours</span>
+    
+      <p class="px-c">Monday ...................... Closed</p>
+      <p class="px-c">Tue-Fri ...................  10 am - 12 pm</p>
+      <p class="px-c">Sat-Sun ...................  8 am - 11 pm</p>
+      <p class="px-c">Holidays ..................  10 am - 12 pm</p>
+  
+</div>
+ 
+    </div>
+  </div>
+    <div class="container-fluid small-footer">
+      <div class="row">
+      <div class="col-lg-12">
+       <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p class="px-c">© Copyright 2020 Dodo Kitchen</p> 
+     </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
